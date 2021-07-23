@@ -1,0 +1,2 @@
+创建一个商品类，商品类Product有编号pro_id、商品名称pro_name、商品价格pro_price、商品数量pro_count、商品持有者pro_owner、商品生产地pro_address 6个属性。
+使用基于set方法配置商品类Product为Bean类，为6个属性分别赋值，要求：pro_owner=自己的姓名，其他属性信息为自定义的信息，自己写一个主类进行测试，输出商品所有的属性值。

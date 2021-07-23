@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ 	   http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<!--2.使用设值注入方式装配User实例 -->
+	<bean id="testProduct" class="work3.Product">
+		<property name="pro_id" value="114514"></property>
+		<property name="pro_name" value="进口红茶"></property>
+		<property name="pro_price" value="19.19"></property>
+		<property name="pro_count" value="810"></property>
+		<property name="pro_owner" value="旻"></property>
+		<property name="pro_address" value="下北泽"></property>
+	</bean>
+</beans>
